@@ -49,9 +49,9 @@
 try{    
     
     //データベース接続
-    $dsn = "mysql:dbname=tb230586db;host=localhost";
-    $user = "tb-230586";
-    $password = "SknaYJ54fv";
+    $dsn = "mysql:dbname=hogehoge;host=localhost";
+    $user = "tb-hogehoge";
+    $password = "hogepass";
     $pdo = new PDO($dsn, $user, $password, array(PDO::ATTR_ERRMODE => PDO::ERRMODE_WARNING));
     
     //テーブル作成
